@@ -1,6 +1,7 @@
 import java.io.*;
 public class queue
 {
+
 	static int front=-1,rear=-1;
 	public static void push(int[] queue,int data)
 	{
@@ -86,14 +87,6 @@ public class queue
 		int[] queu =  new int[500];
 		push(queu,1);
 		push(queu,2);
-		push(queu,3);
-		peek(queu);
-		pop(queu);
-		peek(queu);
-		print(queu);
-		push(queu,10);
-		push(queu,20);
-		push(queu,30);
 		pop(queu);
 		print(queu);
 		push(queu,100);
